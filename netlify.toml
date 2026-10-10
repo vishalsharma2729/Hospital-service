@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  # Netlify sets CI=true, which makes Create React App treat lint warnings as errors
+  CI = "false"
