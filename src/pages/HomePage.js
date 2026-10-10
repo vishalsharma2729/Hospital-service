@@ -1,35 +1,9 @@
 import { Hero } from '../components/Hero';
-import team1 from '../images/team-image1.jpg';
 import team2 from '../images/team-image2.jpg';
-import team3 from '../images/team-image3.jpg';
 import news1 from '../images/news-image1.jpg';
 import news2 from '../images/news-image2.jpg';
 import news3 from '../images/news-image3.jpg';
 import authorImage from '../images/author-image.jpg';
-
-const doctors = [
-  {
-    name: 'Nate Baston',
-    role: 'General Principal',
-    phone: '010-020-0120',
-    email: 'general@company.com',
-    image: team1,
-  },
-  {
-    name: 'Jason Stewart',
-    role: 'Pregnancy',
-    phone: '010-070-0170',
-    email: 'pregnancy@company.com',
-    image: team2,
-  },
-  {
-    name: 'Miasha Nakahara',
-    role: 'Cardiology',
-    phone: '010-040-0140',
-    email: 'cardio@company.com',
-    image: team3,
-  },
-];
 
 const news = [
   {
